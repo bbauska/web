@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Goblin One', cursive;
+}
+.main{
+	position: relative;
+	height: 150px;
+	width: 100%;
+}
+.main h1{
+	position:relative;
+	height:auto;
+	width:500%;
+	left:50%;
+	transform: translate(-50%);
+	margin:5% 0 2% 0;
+	text-align:center;
+	font-size: 2.8em;
+	font-weight: 650;
+	letter-spacing: 1.5px;
+	color:#017bf5;
+	border-left:5px solid #017bf5;
+	border-right:5px solid #017bf5;
+	background:rgba(0, 0, 0, 0.2);
+	
+}
+.main p{
+	position:relative;
+	height:auto;
+	width:100%;
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color:#555;
+}
+.main .gallery{
+	position: relative;
+	height: auto;
+	width: 90%;
+	margin: auto;
+	padding: 45px 0;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 2vmin;
+	grid-auto-flow: dense;
+}
+.main .gallery .img{
+	position:relative;
+	height:auto;
+	width:100%;
+	overflow: hidden;
+}
+.image-resize{
+	height:200px;
+	width: 150px;
+}
+body{
+	padding: 10px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 3px;
+}
+
+img{
+	width:100%;
+	border-radius: 20px;
+}
+.box{
+	padding:5px;
+	
+}
